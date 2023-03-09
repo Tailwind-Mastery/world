@@ -1,1 +1,0 @@
-import{_ as s,H as t}from"./Header-5e2b0c21.js";import{c as a,d as n,F as r,b as e,o as c,r as _}from"./app-8744c3b6.js";const d={components:{Header:t}},p=e("div",{class:""},[e("h1",{class:"text-xl"},"Login")],-1);function l(m,i,f,u,x,H){const o=_("Header");return c(),a(r,null,[n(o),p],64)}const h=s(d,[["render",l]]);export{h as default};
