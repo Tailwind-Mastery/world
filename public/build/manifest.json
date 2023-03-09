@@ -1,0 +1,67 @@
+{
+  "_Header-5e2b0c21.js": {
+    "file": "assets/Header-5e2b0c21.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-93c9cf8a.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/Images/Home/clouds-landing.jpg": {
+    "file": "assets/clouds-landing-8f63793c.jpg",
+    "src": "resources/js/Images/Home/clouds-landing.jpg"
+  },
+  "resources/js/Images/Home/mountains-landing.jpg": {
+    "file": "assets/mountains-landing-5d8cc82a.jpg",
+    "src": "resources/js/Images/Home/mountains-landing.jpg"
+  },
+  "resources/js/Images/Home/trees-landing.jpg": {
+    "file": "assets/trees-landing-51484d4c.jpg",
+    "src": "resources/js/Images/Home/trees-landing.jpg"
+  },
+  "resources/js/Pages/Home.vue": {
+    "assets": [
+      "assets/trees-landing-51484d4c.jpg",
+      "assets/clouds-landing-8f63793c.jpg",
+      "assets/mountains-landing-5d8cc82a.jpg"
+    ],
+    "file": "assets/Home-826ec4b9.js",
+    "imports": [
+      "_Header-5e2b0c21.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Home.vue"
+  },
+  "resources/js/Pages/Login.vue": {
+    "file": "assets/Login-c4e03e5b.js",
+    "imports": [
+      "_Header-5e2b0c21.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Login.vue"
+  },
+  "resources/js/Pages/Shop.vue": {
+    "file": "assets/Shop-4946ac02.js",
+    "imports": [
+      "_Header-5e2b0c21.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Shop.vue"
+  },
+  "resources/js/app.js": {
+    "dynamicImports": [
+      "resources/js/Pages/Home.vue",
+      "resources/js/Pages/Login.vue",
+      "resources/js/Pages/Shop.vue"
+    ],
+    "file": "assets/app-8744c3b6.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
