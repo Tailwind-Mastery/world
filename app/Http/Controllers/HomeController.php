@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Artisan;
 use Inertia\Inertia;
 
 class HomeController extends Controller
@@ -10,6 +11,7 @@ class HomeController extends Controller
     
     public function index()
     {
+        Artisan::call('php artisan config:cache');
         return Inertia::render('Home', [
             'name' => 'Vue'
         ]);
