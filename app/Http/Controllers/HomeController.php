@@ -11,7 +11,6 @@ class HomeController extends Controller
     
     public function index()
     {
-        Artisan::call('php artisan config:cache');
         return Inertia::render('Home', [
             'name' => 'Vue'
         ]);
